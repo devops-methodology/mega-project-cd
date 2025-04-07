@@ -10,7 +10,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-    - host: www.shackverse.co
+    - host: devopsmethodology.xyz
       http:
         paths:
           - path: /
@@ -22,5 +22,5 @@ spec:
                   number: 80
   tls:
     - hosts:
-        - www.shackverse.co
+        - devopsmethodology.xyz
       secretName: shackverse-co-tls
