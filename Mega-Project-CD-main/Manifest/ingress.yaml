@@ -23,4 +23,6 @@ spec:
   tls:
     - hosts:
         - devopsmethodology.xyz
-      secretName: shackverse-co-tls
+        - www.devopsmethodology.xyz
+      secretName: devopsmethodology-tls
+
